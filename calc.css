@@ -1,0 +1,43 @@
+
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0) , rgb(0, 0, 0));
+    background-attachment: fixed;
+}
+
+h4{
+    color: white;
+}
+#calb{
+    background-image: linear-gradient(to bottom right, #260041 , #260041);
+border-radius: 7%;
+box-shadow: 0 0 50px 2px #ab48e0,
+            0 0 50px 2px #f6b5ff;
+}
+
+/* .btn-danger.gradient {
+    padding: 25px 25px; */
+    
+
+/* .btn-primary.gradient {
+    padding: 25px 25px;
+    
+} */
+.btn-primary.gradient{
+background-color: #260041;
+}
+.btn-danger.gradient{
+    background-color: #260041;
+    }
+
+.btn-primary.gradient:active, .btn-primary.gradient.active {
+
+	background: linear-gradient(to bottom,  #8d17e8 50%,#8d17e8 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#267c99', endColorstr='#007299',GradientType=0 ); /* IE6-9 */
+}
+
+.btn-danger.gradient:active, .btn-primary.gradient.active {
+
+	background: linear-gradient(to bottom,  #8d17e8 50%,#8d17e8 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#267c99', endColorstr='#007299',GradientType=0 ); /* IE6-9 */
+}
